@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo "Enter Your Name:"
+read name
+echo "my name is $name"
+
+arr[0]="Hozan"
+arr[1]="Ageed"
+arr[2]="Farho"
+
+arr+=("name2" "name3")
+
+unset arr[2]
+
+echo "Your name is ${!arr[@]}"
+echo "Welcome back ${#arr[@]}"
+
+echo "list of file and folder:"
+ls
+echo "print working directory"
+
+pwd
+
+

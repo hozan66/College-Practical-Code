@@ -1,0 +1,38 @@
+/*p { // only tag name
+	color:gray;
+	text-align: justify;
+}
+
+h2{
+	color: red;
+}
+
+body h2 p i li ul {
+	color: green
+}
+
+ul ol {
+	list-style-type: lower-alpha;
+}
+
+ul > ol > li {
+	color: orange;
+}
+
+h2 + a{
+	color: red;
+}
+
+input[type="submit"]  {
+	color: red;
+}
+
+#osama {
+	color: green;
+}
+
+*/
+
+h2, p , h1, {
+	color: red;
+}

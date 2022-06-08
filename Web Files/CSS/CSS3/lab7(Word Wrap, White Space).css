@@ -1,0 +1,26 @@
+div
+{
+	background-color:#EEE;
+	padding:10px;
+	border:1px solid #CCC;
+	font-family:Arial;
+	width:300px;
+	margin:20px;
+
+	word-wrap:normal;/*normal by default*/
+}
+
+.div2
+{
+	word-wrap:break-word;/*normal by default*/
+}
+
+.div3
+{
+	white-space:nowrap;/*normal by default*/
+}
+
+.div4
+{
+	white-space:normal;/*normal by default*/
+}

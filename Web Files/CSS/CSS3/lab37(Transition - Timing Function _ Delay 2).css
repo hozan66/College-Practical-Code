@@ -1,0 +1,46 @@
+*{
+	box-sizing:border-box;
+}
+
+/*
+   transition: property | duration | timing function | delay;
+*/
+
+div{
+	width:1000px;
+}
+
+div p{
+	background-color:#F00;
+	color:#FFF;
+	margin-bottom:10px;
+	width:120px;
+	padding:10px;
+	transition-property:width;
+	transition-duration:3s;
+	transition-timing-function:ease;
+}
+
+div p:first-of-type{
+	transition-delay:0.5s;/* 0s by default */
+}
+
+div p:nth-of-type(2){
+	transition-delay:1s;
+}
+
+div p:nth-of-type(3){
+	transition-delay:1.5s;
+}
+
+div p:nth-of-type(4){
+	transition-delay:2s;/*2000ms*/
+}
+
+div p:last-of-type{
+	transition-delay:2.5s;
+}
+
+div:hover p{
+	width:200px;
+}

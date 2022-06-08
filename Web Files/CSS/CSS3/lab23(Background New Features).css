@@ -1,0 +1,17 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:400px;
+	height:200px;
+	background:url('cat.jpg');
+	/*
+	background-size:width height;
+	 //The size of Image will be the size (width,height) that you defineded 
+	 ((control the size of image))
+	 */
+	background-size:200px 200px;/*auto auto by default*/ 
+	color:#FFF;
+	margin-bottom:20px;
+}

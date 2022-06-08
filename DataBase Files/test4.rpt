@@ -1,0 +1,165 @@
+﻿
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+3    Pettersen            Kari                 Storgt 20            Stavanger
+
+(3 row(s) affected)
+
+lastName             firstName
+-------------------- --------------------
+Hansen               Ola
+Svendson             Tove
+Pettersen            Kari
+
+(3 row(s) affected)
+
+city
+--------------------
+Sandnes
+Stavanger
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+2    Svendson             Tove                 Borgvn 23            Sandnes
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+3    Pettersen            Kari                 Storgt 20            Stavanger
+4    Nilsen               Johan                Bakken 2             Stavanger
+
+(4 row(s) affected)
+
+(1 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+3    Pettersen            Kari                 Storgt 20            Stavanger
+4    Nilsen               Johan                Bakken 2             Stavanger
+5    Tjessem              Jakob                NULL                 NULL
+
+(5 row(s) affected)
+
+(1 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+3    Pettersen            Kari                 Storgt 20            Stavanger
+4    Nilsen               Johan                Bakken 2             Stavanger
+5    Tjessem              Jakob                Nissestien 67        Sandnes
+
+(5 row(s) affected)
+
+(1 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+3    Pettersen            Kari                 Storgt 20            Stavanger
+4    Nilsen               Johan                Bakken 2             Stavanger
+
+(4 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+3    Pettersen            Kari                 Storgt 20            Stavanger
+4    Nilsen               Johan                Bakken 2             Stavanger
+
+(4 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+3    Pettersen            Kari                 Storgt 20            Stavanger
+4    Nilsen               Johan                Bakken 2             Stavanger
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+2    Svendson             Tove                 Borgvn 23            Sandnes
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+
+(1 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+2    Svendson             Tove                 Borgvn 23            Sandnes
+
+(1 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+2    Svendson             Tove                 Borgvn 23            Sandnes
+3    Pettersen            Kari                 Storgt 20            Stavanger
+
+(2 row(s) affected)
+
+p_id lastName             firstName            _address             city
+---- -------------------- -------------------- -------------------- --------------------
+1    Hansen               Ola                  Timoteivn 10         Sandnes
+4    Nilsen               Johan                Bakken 2             Stavanger
+
+(2 row(s) affected)
+

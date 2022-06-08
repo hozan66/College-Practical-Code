@@ -1,0 +1,32 @@
+.div1, .div2, .div3
+{
+	color:#FFF;
+    padding:10px;
+	width:100px;
+	height:100px;
+	position:absolute;
+}
+
+.div1
+{
+	background:#F00;
+	top:0px;
+	left:0px;
+	z-index:1; /*auto by default*/
+}
+
+.div2
+{
+	background:#00F;
+	top:20px;
+	left:20px;
+	z-index:2;
+}
+
+.div3
+{
+	background:#080;
+	top:40px;
+	left:40px;
+	z-index:3;
+}

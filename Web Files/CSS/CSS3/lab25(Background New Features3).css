@@ -1,0 +1,15 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:500px;
+	height:300px;
+	color:#FFF;
+	margin:20px auto;
+	padding:50px;
+	border:10px dotted #F00;
+    background:url('cat.jpg');
+    background-origin:content-box;
+    background-repeat:no-repeat;
+}

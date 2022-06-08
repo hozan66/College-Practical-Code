@@ -1,0 +1,25 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	border:1px solid #CCC;
+	background-color:#DDD;
+}
+
+p ~ span{
+	color:#F00;
+}
+
+/*[attribute^=value]*/
+[class^=os]{
+	color:#00F;
+}
+
+[class$=ze]{
+	color:#080;
+}
+
+[class*=oo]{
+	color:#F0F;
+}

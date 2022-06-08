@@ -1,0 +1,45 @@
+*{
+	box-sizing:border-box;
+}
+
+.container{
+	width:500px;
+	height:500px;
+	margin:50px auto;
+	background-color:#CCC;
+	display:flex;
+}
+
+.container div{
+	width:150px;
+	color:#FFF;
+	padding:10px;
+	max-height:200px;
+}
+
+.container .one{
+	background-color:#080;
+	order:1;
+	flex-grow:0;/*0 by default*/
+	flex-shrink:3;/*1 by default*/
+}
+
+.container .two{
+	background-color:#F00;
+	order:2;
+	flex-grow:1;
+}
+
+.container .three{
+	background-color:#F0F;
+	order:3;
+	flex-grow:2;
+}
+
+.container .four{
+	background-color:#00F;
+	order:4;
+	flex-shrink:0;
+}
+
+

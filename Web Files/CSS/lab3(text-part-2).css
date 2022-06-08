@@ -1,0 +1,47 @@
+div{
+	/*Div Ptoperites*/
+	width:300px;
+	background:#DDD;
+	margin:10px 0;
+	padding:10px;
+
+	/*Text Ptoperites*/
+	color:#00F;
+	text-decoration:none;/*none by default*/
+	text-indent:50px; /*normal by default*/
+
+	white-space:nowrap; /*normal by default*/
+	overflow:hidden;
+}
+
+a:hover
+{
+	text-decoration:none;
+}
+
+div span{
+	color:#F00;
+	text-decoration:line-through;
+}
+
+span.old{
+	text-decoration:line-through;
+	color:#F00;
+}
+
+span.new{
+	color:#00F;
+}
+
+span.cap{
+	text-transform:capitalize; /*by defalt none */
+}
+
+span.upper{
+	text-transform:uppercase;
+}
+
+span.lower{
+	text-transform:lowercase;
+	word-spacing:50px;
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form action="demo_form.asp">
+	<fieldset>
+		<legend>Personal Information</legend>
+<label for="fname">First name:</label>
+<input type="text" name="First name" placeholder="First Name" autocomplete="on" autofocus id="fname"><br/>
+Last name:<input type="text" name="lname" placeholder="Last Name" autocomplete="on"><br/>
+Email:   <input type="text" name="eml" autocomplete="on"><br/>
+Password:<input type="password" name="pw" autocomplete="on" pattern=".{6,}" title="six or more characters"><br/>
+<input type="submit">
+</fieldset>
+</form>
+
+<form action="demo_form.asp" id="form1">
+	
+	<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+	<input type="checkbox" name="vehicle" value="Car" checked>
+	I have a car<br>
+	Third Name:<input type="text" name="third name" value="third" disabled><br>
+	<input type="submit" value="sign up" formtarget="_blank">
+</form>
+Zero Name:<input type="text" name="zname" form="form1" required><br>
+
+<input list="browsers">
+<datalist id="browsers">
+	<option value="internet explorer">
+	<option value="firefox">
+	<option value="google chrome">
+</datalist><br>
+
+<form action="demo_form.asp">
+Enter a date before 1980-01-01:<input type="date" name="bday" max="1979-12-31">	<br>
+Enter a date after 2000-01-01:<input type="date" name="bday" min="2000-01-02">	<br>
+Quantity(between 1 and 5):<input type="number" name="quantity" min="1" max="5">	<br>
+</form>
+
+<form action="demo_form.asp">
+	select image:<input type="file" name="pic" accept="image/*"><br>
+	<input type="submit">
+	<input formmethod="post"><br>
+	Password:<input type="password" name="pw" autocomplete="on" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br/>
+	Password:<input type="text" name="country_code" pattern="[A-Za-z]){3}" title="three letter country code "><br/>
+	<input type="submit"><br>
+	Email:<input type="Email" value="example@example.com" ><br>
+	<input type="reset" ><br>
+	<input type="text" name="state" value="Hawler" readonly><br>
+
+</form>
+<form action="demo_form.asp">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male" value="male"><br/>
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female" value="female"><br/>
+<input type="submit" value="Submit">
+</form>
+Say something about yourself::<br>
+<textarea rows="8" cols="40" name="text">
+	about you.....
+</textarea>
+<br/><br/>
+<form>
+	<fieldset>
+		<legend>Text&Date</legend>
+Birth Date:Year:<select size="4" multiple >
+	<option value="1990">1990</option>
+	<option value="1991">1991</option>
+	<option value="1992" selected>1992</option>
+	<option value="1993">1993</option>
+	<option value="1994">1994</option>
+	<option value="1995">1995</option>
+	<option value="1996">1996</option>
+	<option value="1997">1997</option>
+	<option value="1998">1998</option>
+	
+</select>
+</fieldset>
+</form><br>
+</body>
+</html>

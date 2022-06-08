@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form1</title>
+	<script>
+		function sayHello()
+		{
+			alert("Hello HTML!");
+		}
+	</script>
+	<style>
+		fieldset
+		{
+			background:#DDD;
+			padding:10px;
+			border:1px solid #EFEFEF;
+		}
+		legend
+		{
+			background:#FFF;
+			padding:5px;
+			border:1px solid #CCC;
+		}
+	</style>
+</head>
+
+<body>
+<form name="register">
+	<fieldset>
+		<legend>Personal Information</legend>
+	<label>Username:</label>
+	<input type="text" name="username" value="" placeholder="Type Your Name" maxlength="10">
+	<br>
+
+	<label>Password:</label>
+	<input type="password" name="password">
+	<br>
+
+	<label>Your Message:</label> <br>
+	<textarea rows="6" cols="60" readonly>Tell me something about you......
+	This note you can Not Edit</textarea>
+	<br>
+
+	<label>Upload Your CV:</label>
+    <input type="file">
+	<br>
+
+	<input type="checkbox" >
+	<label>Remember Me</label>
+	</fieldset>
+	<br>
+
+    <fieldset>
+    <legend>Your Favourite</legend>
+    <label>Chose Your Browser:</label> <br>
+	<input type="radio" name="browser" value="Chrome"> Google Chrome <br>
+	<input type="radio" name="browser" value="Firefox"> Firefox <br>
+	<input type="radio" name="browser" value="Opera"> Opera 
+	<br>
+
+	 <label>Chose Your Mobile:</label> <br>
+	<input type="radio" name="mobile" value="iphone"> iphone <br>
+	<input type="radio" name="mobile" value="samsung"> samsung <br>
+	<input type="radio" name="mobile" value="nokia"> nokia 
+	</fieldset>
+	<br>
+
+	<fieldset>
+    <legend>Send Options</legend>
+    <select name="time" size="3" multiple>
+    	<optgroup label="Near Time">
+	    	<option value="1">Now</option>
+	    	<option value="2" disabled>Tomorrow</option>
+	    	<option value="3">After A Week</option>
+    	</optgroup>
+    	<optgroup label="Far Time">
+	    	<option value="4" selected>Two Years</option>
+	    	<option value="5">Ten Years</option>
+	    	<option value="6">Twenty Years</option>
+	    	<option value="7">40 Years</option>
+	    	<option value="8">50 Years</option>
+    	</optgroup>
+    </select>
+    <br>
+
+    <input type="image" src="D:\photoes\Action\FB_IMG_1555103998143.jpg" alt="submit">
+    <br>
+
+	<input type="button" name="say hello" value="Say Hello" onclick="sayHello()">
+	<!--button used in JavaScript-->
+
+	<input type="submit" value="Sign Up">
+
+	<input type="reset" value="Reset Default Value">
+	</fieldset>
+
+	
+</form>
+</body>
+</html>

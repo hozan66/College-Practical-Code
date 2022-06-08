@@ -1,0 +1,18 @@
+div
+{
+	color:#F00;
+}
+
+div:before
+{
+	content:"this text from CSS before DIV"; /*normal by default*/
+	color:#00F;
+	font-weight:bold;
+}
+
+div:after
+{
+	content:"this text from CSS after DIV";
+	color:#00F;
+	font-weight:bold;
+}

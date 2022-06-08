@@ -1,0 +1,18 @@
+@media print
+{
+	p
+	{
+		color:#F00;
+		font-size:40px;
+		font-weight:bold;
+	}
+}
+
+@media screen
+{
+	p
+	{
+		color:#00F;
+		font-size:20px;
+	}
+}

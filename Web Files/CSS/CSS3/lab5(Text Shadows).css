@@ -1,0 +1,25 @@
+/*
+text-shadow: Horizontal-shadow | Vertical-shadow | blur-radius | color
+text-shadow: none by default;
+*/
+
+h1
+{
+	text-align:center;
+	margin:20px;
+	font-family:Arial;
+	text-shadow:1px 2px 3px #EB3865;
+}
+
+p
+{
+	text-align:center;
+	margin:30px;
+	font-size:40px;
+	font-weight:bold;
+	font-family:Arial;
+	text-shadow:1px 2px 3px #EB3865,
+	            2px 3px 7px #2F00CE;
+}
+
+

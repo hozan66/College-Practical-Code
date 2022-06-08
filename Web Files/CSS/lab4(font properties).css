@@ -1,0 +1,17 @@
+p
+{
+	/*  font:font-style / font-weight / font-size/line-height / font-family  */
+
+	font:italic bold 30px/40px "Time New Roman";
+    
+     /*font-family:"Time New Roman";*/ 
+     /*if we have more than one word we have to put it inside double quotation*/
+	 /*font-style:italic;*/ /*normal by default*/
+	 /*font-weight:bold;*/  /*normal by default*/
+	 /*font-size:large; */ /*medium by default*/
+
+}
+p span
+{
+	font-size:smaller;/*smaller according with font of paragrgh*/
+} 

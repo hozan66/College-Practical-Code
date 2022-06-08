@@ -1,0 +1,68 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:100px;
+	height:100px;
+	top:10px;
+	left:10px;
+	background-color:#F00;
+	color:#FFF;
+	position:absolute;/*required*/
+	/*
+	  By default==> animation:none 0s ease 0s 1 normal none running;
+	*/
+
+	/*
+	animation-name:moving;
+	animation-duration:6s;
+	animation-timing-function:ease;
+	animation-delay:0s;
+	animation-iteration-count:1;
+	animation-direction:normal;
+	animation-fill-mode:none;
+	animation-play-state:running;
+	*/
+	animation:moving 6s ease 0s 1 normal none running;
+}
+
+.first{
+	left:10px;
+	animation-timing-function:ease;
+}
+
+.second{
+	left:120px;
+	background-color:#00F;
+	animation-timing-function:ease-in;
+}
+
+.third{
+	left:230px;
+	background-color:#FF0;
+	animation-timing-function:ease-out;
+}
+
+.fourth{
+	left:340px;
+	background-color:#080;
+	animation-timing-function:ease-in-out;
+}
+
+.fifth{
+	left:450px;
+	background-color:#F0F;
+	animation-timing-function:linear;
+}
+
+
+@keyframes moving{
+	0%{
+		top:10px;
+	}
+
+	100%{
+		top:420px;
+	}
+}

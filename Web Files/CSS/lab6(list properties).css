@@ -1,0 +1,16 @@
+ul
+{
+	/*list-style:type position image;*/
+	
+	list-style:circle inside url('face.jpg');
+
+	/*list-style-type:circle;*/ /*disc by default*/
+	/*list-style-position:inside;*/ /*outside by default*/
+    /*list-style-image:url('face.jpg');*/ /*none by default*/
+
+} 
+
+ul li
+{
+	border:1px solid #DDD;
+}

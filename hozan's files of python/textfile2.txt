@@ -1,0 +1,5 @@
+20 are less than 25
+8 greater than 5
+9 are less than 999
+1000 are equal to 1000
+but 100 are not equal to 1000

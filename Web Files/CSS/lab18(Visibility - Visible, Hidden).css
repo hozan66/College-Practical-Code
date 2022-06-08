@@ -1,0 +1,20 @@
+div
+{
+	width:300px;
+	background:#DDD;
+	padding:10px;
+	margin:10px;
+	float:left;
+}
+
+div.visible
+{
+	visibility:hidden;/*visible by default*/
+	/*Item disappears,but its place remains reserved*/
+}
+
+div.normal
+{
+	display:none;
+	/*Item disappears,but the other item take its place*/
+}

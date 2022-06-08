@@ -1,0 +1,18 @@
+div
+{
+	background:#EEE;
+	padding:10px;
+	border:1px solid #CCC;
+	font-family:Arial;
+	width:300px;
+
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+div:hover
+{
+	overflow:visible;
+}
+

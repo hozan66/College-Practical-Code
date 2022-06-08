@@ -1,0 +1,19 @@
+div
+{
+	background:#DDD;
+
+	min-width:50px; /*initial value*/
+	max-width:200px; /*final value*/
+
+	min-height:50px; /*initial value*/
+	max-height:200px; /*final value*/
+
+	margin-right:20px;
+	float:left;
+	overflow:auto;
+}
+ 
+/*
+min-width/height  by default zero
+max-width/height  by default auto
+*/

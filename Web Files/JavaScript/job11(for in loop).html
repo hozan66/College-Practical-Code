@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For / in Loop</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+	/*var mycar={
+		color:"white",
+		type:"BMW",
+		price:"50,000",
+		model:"2015"
+	};
+	//document.write(mycar.color);   //white
+	var prop;
+	for(prop in mycar)
+	{
+		console.log(prop+": "+mycar[prop]);
+	}*/
+     var person={fname:"hozan",lname:"ageed",age:25};
+     var x,txt="";
+     for(x in person)
+     {
+         alert(x);
+         txt+=person[x]+"<br>";
+     }
+     document.getElementById("demo").innerHTML=txt;
+</script>
+</body>
+</html>

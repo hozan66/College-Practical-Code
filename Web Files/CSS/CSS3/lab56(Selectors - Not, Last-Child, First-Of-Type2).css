@@ -1,0 +1,25 @@
+*{
+	box-sizing:border-box;
+}
+
+section :not(:first-child){
+	color:#F0F;
+}
+
+section :first-child{
+	color:#080;
+}
+
+section :last-child{
+	color:#F00;
+}
+
+section p:first-of-type{
+	color:#00F;
+}
+
+section p:last-of-type{
+	color:#123456;
+}
+
+

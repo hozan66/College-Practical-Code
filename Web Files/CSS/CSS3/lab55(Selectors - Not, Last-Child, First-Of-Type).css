@@ -1,0 +1,13 @@
+*{
+	box-sizing:border-box;
+}
+
+/*:not(Selector)*/
+section :not(p){
+	color:#F00;
+}
+
+section :not(.test){
+	color:#00F;
+}
+

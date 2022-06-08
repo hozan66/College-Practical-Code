@@ -1,0 +1,31 @@
+*
+{
+	box-sizing:border-box; /*content-box by default*/
+}
+
+section
+{
+	width:940px;
+	margin:20px auto;
+	background:#EEE;
+	color:#FFF;
+	overflow:hidden;
+}
+
+.left
+{
+	background-color:#F00;
+	width:340px;
+	float:left;
+	padding:10px;
+	border:5px solid yellow;
+}
+
+.right
+{
+	background-color:#00F;
+	width:600px;
+	float:right;
+	padding:10px;
+}
+

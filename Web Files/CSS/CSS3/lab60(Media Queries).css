@@ -1,0 +1,24 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:32%;
+	background-color:#00F;
+	color:#FFF;
+	padding:10px;
+	font-size:22px;
+	float:left;
+	margin-left:1%;
+}
+
+@media (max-width:500px){
+	div{
+		float:none;
+		background-color:#F00;
+		width:100%;
+		margin-left:0px;
+		margin-bottom:20px;
+	}
+}
+

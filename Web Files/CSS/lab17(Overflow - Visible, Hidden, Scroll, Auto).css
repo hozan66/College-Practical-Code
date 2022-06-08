@@ -1,0 +1,20 @@
+.first
+{
+	width:120px;
+	height:100px;
+	background:#DDD;
+	padding:10px;
+	margin:10px;
+	overflow:auto; /*visible by deault*/
+}
+
+.second
+{
+	background:#DDD;
+	overflow:hidden; /*in order to not go the properties of Div go out*/
+}
+
+p
+{
+	float:left; /*the properties of Div will go out*/
+}

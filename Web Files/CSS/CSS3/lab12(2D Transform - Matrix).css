@@ -1,0 +1,33 @@
+*
+{
+	box-sizing:border-box;
+}
+
+/*
+   transform: matrix( a, b, c, d, X, Y );
+   transform: matrix( scaleX skewY, skewX, scaleY, translateX, translateY );
+*/
+
+img
+{
+	width:250px;
+	height:150px;
+	margin:50px;
+	transition:all .5s ease-out;
+}
+
+img:hover
+{
+	/*transform: translate(300px, 100px);
+    transform: matrix(1,0,0,1,300,100);*/
+
+    /*transform: scale(-1,1);*/  /*horizontal flip*/
+    /*transform: scale(1,-1);*/  /*vertical flip*/
+    /*transform: scale(-1);*/    /*horizontal and vertical flip*/
+
+    /*transform: matrix(-1,0,0,1,0,0);*/
+
+    /*transform: rotate(30deg);*/
+    /*transform: matrix(0.86,0.5,-0.5,0.86,0,0);*/
+    transform: matrix(0.5,0.5,-0.5,0.5,300,100);
+}

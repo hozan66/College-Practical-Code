@@ -1,0 +1,24 @@
+;multiply two arrays
+LEA SI,A1
+LEA DI,A2
+LEA BP,Z
+MOV CX,5
+
+X:MOV AL,[SI]
+MOV BL,[DI]
+MUL BL
+MOV [BP],AX
+INC SI
+INC DI
+ADD BP,2
+LOOP X
+HLT
+
+
+
+
+
+
+A1 DB 11H,22H,33H,44H,55H
+A2 DB 10H,20H,30H,40H,50H 
+Z  DW ?

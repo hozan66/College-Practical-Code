@@ -1,0 +1,26 @@
+div{
+	background:#DDD;
+	padding:10px;
+	margin:10px auto;
+	border:2px solid red;
+	width:300px;
+}
+/*
+border-width:1px;
+border-style:solid;
+border-color:red;
+*/
+
+#first{
+	border-left:2px dotted blue;
+}
+
+#second{
+	border-width:2px 3px 4px 5px;
+	border-style:solid dotted dashed none;
+	border-color:black green orange;
+}
+
+#third{
+	border-style:hidden double;
+}

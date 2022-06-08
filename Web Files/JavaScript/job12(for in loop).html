@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For / in Loop</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+	var arr=["car","bike","motor"];
+	document.write("Array Element are: <br>",arr,"<br>");
+	document.write("Array Element at index[0] is: <b style=\"color:red\">",arr[0],"</b><br>");
+
+	
+	for(var i=0;i<arr.length;i++)
+	{
+		document.write("arr[",i,"]=",arr[i],"<br>");
+	}
+	for(var x in arr)
+	{
+		document.write("arr[",x,"]=",arr[x],"<br>");
+	}
+	for(var x in arr)
+	{
+		alert(x);
+		document.write(x,"<br>");
+	}
+	for(var y of arr)
+	{
+		alert(y);
+		document.write(y,"<br>");
+	}
+</script>
+</body>
+</html>

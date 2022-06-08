@@ -1,0 +1,13 @@
+-webkit- ==>support==> //Google Chrome, Safari, IOS, Android 
+
+-moz- ==>support==>     //Firefox
+(mozilla)
+
+-o-  ==>support==> //opera
+
+-ms- ==>support==> //Internet Explorer 
+(microsoft)         
+
+/*
+we use this ((vendor prefixes)) in order to new properties of CSS support the old versions of browsers 
+*/

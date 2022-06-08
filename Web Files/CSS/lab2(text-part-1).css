@@ -1,0 +1,26 @@
+body{
+	direction:ltr;
+}
+
+div{
+	/*Div Ptoperites*/
+	width:300px;
+	background:#DDD;
+	margin:10px 0;
+	padding:10px;
+
+	/*Text Ptoperites*/
+	color:#00F;
+	direction:ltr;
+	letter-spacing:normal;/*by dafault normal*/
+	line-height:30px;/*by dafault normal*/
+
+}
+
+.ar{
+	direction:rtl;
+}
+
+.ab{
+	text-align:center;
+}

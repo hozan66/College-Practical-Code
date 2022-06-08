@@ -1,0 +1,30 @@
+*{
+	box-sizing:border-box;
+}
+
+/*
+   transition: property | duration | timing function | delay;
+*/
+
+div{
+	width:100px;
+	height:100px;
+	background-color:#F00;
+	color:#FFF;
+
+	/*multi transition*/
+	/*transition:width 0.5s, background-color 6.5s;*/
+
+	/*transition-property: all; by default */
+	/*multi transition-property*/
+	transition-property:width, background-color;
+
+	/*transition-duration: 0s; by default */ 
+	/*multi transition-duration*/
+	transition-duration:0.5s, 6.5s;
+}
+
+div:hover{
+	width:200px;
+	background-color:#00F;
+}

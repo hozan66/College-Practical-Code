@@ -1,0 +1,45 @@
+*
+{
+	box-sizing:border-box;
+}
+
+div
+{
+	margin:50px;
+}
+
+/*perspective-origin:X Y;*/
+
+div:first-of-type
+{
+	perspective:500px; /*none by default*/
+	perspective-origin:50% 50%; /*50% 50% by default*/
+	/*perspective-origin:center center*/ /*center center by default*/
+}
+
+div:nth-of-type(2)
+{
+	/*in order to 3D features works , and this value is the distance between element and viewer*/
+	perspective:500px;
+	perspective-origin:bottom;
+}
+
+div:last-of-type
+{
+	perspective:500px;
+	perspective-origin:left;
+}
+
+img
+{
+	width:250px;
+	height:150px;
+	display:block; /*in order to margin property works*/
+	margin:50px auto;
+	transition:all 0.5s ease-in-out;
+}
+
+img:hover
+{
+	transform: translateZ(250px);
+}

@@ -1,0 +1,21 @@
+*{
+	box-sizing:border-box;
+}
+
+section{
+	border:1px solid #CCC;
+	margin:10px;
+}
+
+p:only-child{
+	color:#F00;
+}
+
+div:only-of-type{
+	color:#00F;
+}
+
+::selection{
+	background-color:#333;
+	color:yellow;
+}

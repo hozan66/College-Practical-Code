@@ -1,0 +1,36 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+
+div
+{
+	background:#00F;
+	color:#FFF;
+}
+
+.zero
+{
+    width:300px;
+    margin:auto; /*same as margin:0 auto;*/
+}
+
+.one
+{
+	/*
+	margin-top:10px;
+	margin-right:20px;
+	margin-bottom:30px;
+	margin-left:40px;
+	*/
+
+	margin:10px 20px 30px 40px;
+}
+
+.two
+{
+	margin:10px; 
+	/* top right bottom left */
+	/* 10px 10px 10px 10px*/
+}

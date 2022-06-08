@@ -1,0 +1,18 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	border:1px solid #F0F;
+	background-color:#CCC;
+	padding:10px;
+	/*
+	columns:column-width column-count;
+	*/
+	columns:300px 4;/*auto auto by default*/
+}
+
+div h2{
+	column-span:all;/*1 by default*/ /*not supported in firefox*/
+}
+

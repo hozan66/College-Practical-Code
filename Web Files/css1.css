@@ -1,0 +1,33 @@
+div
+{
+	width:200px;
+	height:200px;
+	padding:10px;
+	margin:60px auto;
+	color:#fff;
+	background-color:#f00;
+	transition:all 3s ease-in-out;
+	/*transform:rotate(360deg);*/
+}
+
+div
+{
+	width:200px;
+	height:200px;
+	padding:10px;
+	margin-bottom:10px;
+	color:#fff;
+	background-color:#00f;
+	
+	/*transform:rotate(360deg);*/ 
+}
+
+div:hover
+{
+	transition:all 5s steps(4,start);
+	background-color:#0f0;
+	/*transform:rotate(360deg);*/
+	transform: translate(200px);
+	border-radius:50px;
+	transform-origin:right top 5px;
+}

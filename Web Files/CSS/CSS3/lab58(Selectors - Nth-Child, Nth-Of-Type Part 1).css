@@ -1,0 +1,45 @@
+*{
+	box-sizing:border-box;
+}
+
+/* nth: number th [1st, 2nd, 3rd, 4th, 5th.....]
+   nth(number, formula, keyword)
+*/
+div, p{
+	padding:10px;
+	width:200px;
+	border:1px solid #CCC;
+	margin:0px;
+}
+
+:nth-child(5){
+	color:#00F;
+	font-weight:bold;
+}
+
+div:nth-of-type(5){
+	color:#F00;
+	font-weight:bold;
+}
+
+p:nth-child(8){
+	background-color:#0FF;
+}
+
+div:nth-child(even){
+	background-color:#123456;
+}
+
+div:nth-of-type(odd){
+	background-color:yellow;
+}
+
+div:nth-last-child(3){
+	background-color:#080;
+}
+
+div:nth-last-of-type(5){
+	background-color:#654321;
+}
+
+

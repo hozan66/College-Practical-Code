@@ -1,0 +1,7 @@
+p b{color:red;}
+h2 > u{color:blue;}
+h1 + p{color:green;}
+img[src$='.jpg']{border:10px double red}
+a:hover{background-color:red;}
+p:first-letter{font-size: 400%;
+				float:left;}

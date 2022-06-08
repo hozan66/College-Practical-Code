@@ -1,0 +1,24 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:150px;
+	height:150px;
+	padding:10px;
+	margin:120px auto;
+	line-height:130px;
+	text-align:center;
+	background-color:#2C3E50;
+	color:#FFF;
+	transition:all .5s ease-in-out;
+	opacity:.8;
+}
+
+div:hover{
+	opacity:1;
+	background-color:#3497db;
+	transform:rotate(25deg);
+	border-radius:50%;
+	box-shadow:inset 0 0 0 25px #F00;
+}

@@ -1,0 +1,176 @@
+﻿
+-----------------------
+2020-11-11 21:17:44.977
+
+(1 row(s) affected)
+
+col1        col2
+----------- -----------
+100         200
+
+(1 row(s) affected)
+
+     
+---- ----
+A    B
+
+(1 row(s) affected)
+
+                                    
+----------- ----------- ----------- -----------
+7           1           12          1
+
+(1 row(s) affected)
+
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+pno    dName                relationship sex  age
+------ -------------------- ------------ ---- ------
+12     ali                  son          M    2
+60     shi                  daughter     F    20
+13     hoz                  son          M    8
+20     hrhfd                daughter     F    4
+15     nor                  son          M    7
+
+(5 row(s) affected)
+
+dName
+--------------------
+ali
+shi
+hoz
+hrhfd
+nor
+
+(5 row(s) affected)
+
+dName                relationship
+-------------------- ------------
+ali                  son
+shi                  daughter
+hoz                  son
+hrhfd                daughter
+nor                  son
+
+(5 row(s) affected)
+
+pno    dName                relationship sex  age
+------ -------------------- ------------ ---- ------
+12     ali                  son          M    2
+60     shi                  daughter     F    20
+13     hoz                  son          M    8
+20     hrhfd                daughter     F    4
+15     nor                  son          M    7
+
+(5 row(s) affected)
+
+dName                age
+-------------------- ------
+ali                  2
+hrhfd                4
+nor                  7
+hoz                  8
+shi                  20
+
+(5 row(s) affected)
+
+dName                age
+-------------------- ------
+shi                  20
+hrhfd                4
+nor                  7
+hoz                  8
+ali                  2
+
+(5 row(s) affected)
+
+dName                age    sex
+-------------------- ------ ----
+shi                  20     F
+hrhfd                4      F
+nor                  7      M
+hoz                  8      M
+ali                  2      M
+
+(5 row(s) affected)
+
+dName                age
+-------------------- ------
+shi                  20
+hoz                  8
+nor                  7
+hrhfd                4
+ali                  2
+
+(5 row(s) affected)
+
+dName                sex  age
+-------------------- ---- ------
+shi                  F    20
+hrhfd                F    4
+hoz                  M    8
+nor                  M    7
+ali                  M    2
+
+(5 row(s) affected)
+
+dName                sex  age
+-------------------- ---- ------
+hoz                  M    8
+nor                  M    7
+ali                  M    2
+shi                  F    20
+hrhfd                F    4
+
+(5 row(s) affected)
+
+pno    dName                relationship sex  age
+------ -------------------- ------------ ---- ------
+60     shi                  daughter     F    20
+20     hrhfd                daughter     F    4
+
+(2 row(s) affected)
+
+dName                age
+-------------------- ------
+ali                  2
+hrhfd                4
+
+(2 row(s) affected)
+
+pno    dName                relationship sex  age
+------ -------------------- ------------ ---- ------
+20     hrhfd                daughter     F    4
+
+(1 row(s) affected)
+
+dName                age
+-------------------- ------
+hoz                  8
+nor                  7
+
+(2 row(s) affected)
+
+dName                age
+-------------------- ------
+hoz                  8
+nor                  7
+
+(2 row(s) affected)
+
+dName                age
+-------------------- ------
+ali                  2
+shi                  20
+hrhfd                4
+
+(3 row(s) affected)
+

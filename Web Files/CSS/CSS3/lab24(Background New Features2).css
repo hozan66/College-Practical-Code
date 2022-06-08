@@ -1,0 +1,16 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:500px;
+	height:300px;
+	background:#F00; 
+	color:#FFF;
+	margin:20px auto;
+	padding:50px;
+	border:10px dotted #00F;
+	outline:10px dotted #080;
+	background-clip:content-box;/*border-box by default*/
+
+}

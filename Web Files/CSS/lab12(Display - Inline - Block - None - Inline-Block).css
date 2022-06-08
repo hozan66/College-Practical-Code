@@ -1,0 +1,39 @@
+span
+{
+	display:block;
+}
+
+img
+{
+	display:block;
+}
+
+a
+{
+	display:block;
+}
+
+h1
+{
+	display:inline;
+}
+
+p
+{
+	display:inline;
+}
+
+div
+{
+	display:inline;
+}
+
+ul li
+{
+	display:inline-block; /*all elements will be like one element in block style*/
+}
+
+.photo
+{
+	display:none; /*the element will disappear*/
+}

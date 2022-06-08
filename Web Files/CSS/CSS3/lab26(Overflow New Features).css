@@ -1,0 +1,13 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:100px;
+	height:100px;
+	padding:10px;
+	background-color:#123456;
+	border:1px solid #F0F;
+	overflow-x:scroll;
+	overflow-y:hidden;
+}

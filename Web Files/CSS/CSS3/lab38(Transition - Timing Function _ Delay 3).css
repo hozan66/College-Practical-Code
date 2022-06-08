@@ -1,0 +1,34 @@
+*{
+	box-sizing:border-box;
+}
+
+/*
+   transition: property | duration | timing function | delay;
+*/
+
+div{
+	width:1000px;
+}
+
+div p{
+	background-color:#F00;
+	color:#FFF;
+	margin-bottom:10px;
+	width:120px;
+	padding:10px;
+	transition-property:width, background-color;
+	transition-duration:3s;
+}
+
+div p:first-of-type{ 
+	transition-timing-function:steps(4,start);
+}
+
+div p:last-of-type{
+	transition-timing-function:steps(4,end);/*end by default*/
+}
+
+div:hover p{
+	width:200px;
+	background-color:#00F;
+}

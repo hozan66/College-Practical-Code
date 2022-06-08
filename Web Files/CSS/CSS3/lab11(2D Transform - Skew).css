@@ -1,0 +1,38 @@
+*
+{
+	box-sizing:border-box;
+}
+
+.container
+{
+	width:400px;
+	background-color:#EEE;
+	margin:100px auto;
+	padding:10px;
+	border:1px solid #CCC;
+	height:200px;
+}
+
+.skew
+{
+	background-color:#080;
+	color:#FFF;
+	text-align:center;
+	height:180px;
+	transition:all 1s ease-in-out;
+}
+
+.skew:hover
+{
+	/*
+	skewX();
+	skewY();
+	translate(x,y);
+	*/
+	transform:skew(-10deg,30deg);
+}
+
+.skew:active
+{
+	transform:skewY(30deg) scale(1.2) translate(50px,100px);
+}

@@ -1,0 +1,23 @@
+*{
+	box-sizing:border-box;
+}
+
+/*
+   transition: property | duration | timing function | delay;
+*/
+
+div{
+	width:100px;
+	height:100px;
+	background-color:#F00;
+	color:#FFF;
+	/*transition:all 3.5s;*/
+
+	/*multi transition*/
+	transition:width 0.5s, background-color 6.5s;
+}
+
+div:hover{
+	width:200px;
+	background-color:#00F;
+}

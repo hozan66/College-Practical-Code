@@ -1,0 +1,41 @@
+﻿
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+o_id orderDate  orderPrice customer
+---- ---------- ---------- --------------------
+1    2008-11-12 1000       Hansen
+2    2008-10-23 1600       Nilsen
+3    2008-09-02 700        Hansen
+4    2008-09-03 300        Hansen
+5    2008-08-30 2000       Jensen
+6    2008-10-04 100        Nilsen
+
+(6 row(s) affected)
+
+customerNilsen
+--------------
+2
+
+(1 row(s) affected)
+
+numberOfOrders
+--------------
+6
+
+(1 row(s) affected)
+
+numberOfCustomers
+-----------------
+3
+
+(1 row(s) affected)
+

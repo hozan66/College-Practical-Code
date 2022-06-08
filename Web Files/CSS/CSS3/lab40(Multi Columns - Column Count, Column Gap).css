@@ -1,0 +1,12 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	background-color:#CCC;
+	padding:10px;
+	/*-webkit-column-count:3;*/
+	column-count:4;/*auto by default*/
+	column-gap:100px;/*normal by default*/
+}
+

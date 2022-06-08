@@ -1,0 +1,24 @@
+*{
+	box-sizing:border-box;
+}
+
+.container{
+	width:800px;
+	margin:50px auto;
+	padding:10px;
+	background-color:#CCC;
+	display:flex;
+	flex-direction:row;/*row by default*/
+	flex-wrap:wrap;/*nowrap by default*/
+}
+
+.container div{
+	width:200px;
+	height:200px;
+	background-color:#080;
+	color:#FFF;
+	margin:5px;
+	padding:10px;
+}
+
+

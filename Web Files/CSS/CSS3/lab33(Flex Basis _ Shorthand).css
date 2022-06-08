@@ -1,0 +1,42 @@
+*{
+	box-sizing:border-box;
+}
+
+.container{
+	width:600px;
+	height:500px;
+	margin:50px auto;
+	background-color:#CCC;
+	display:flex;
+}
+
+.container div{
+	color:#FFF;
+	padding:10px;
+	max-height:200px;
+}
+
+.container .one{
+	background-color:#080;
+	flex-basis:auto;
+}
+
+.container .two{
+	background-color:#F00;
+	flex-basis:100px;
+}
+
+.container .three{
+	background-color:#F0F;
+	flex-basis:200px;/*auto by default*/
+}
+
+.container .four{
+	background-color:#00F;
+	/*
+	flex:flex-grow | flex-shrink | flex-basis;
+	*/
+	flex:2 2 auto;/*0 1 auto by default*/
+}
+
+

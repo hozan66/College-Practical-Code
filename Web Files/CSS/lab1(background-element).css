@@ -1,0 +1,13 @@
+div{
+	width:500px;
+	height:2500px;
+    background:#AAA url('apple.jpg') no-repeat scroll 10% 6%;
+
+	/*
+	background-color:#AAA;
+	background-image:url('apple.jpg');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:10% 6%;
+	*/
+}

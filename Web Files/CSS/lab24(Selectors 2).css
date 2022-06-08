@@ -1,0 +1,13 @@
+div + p
+{
+	background:#F00;
+	color:#FFF;
+	padding:10px;
+}
+
+p ~ div
+{
+	background:#00F;
+	color:#FFF;
+	padding:10px;
+}

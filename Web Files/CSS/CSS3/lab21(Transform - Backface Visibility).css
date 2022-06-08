@@ -1,0 +1,49 @@
+*
+{
+	box-sizing:border-box;
+}
+
+body
+{
+	perspective:500px;
+}
+
+div.father
+{
+	width:300px;
+	height:300px;
+	margin:50px auto;
+	position:relative;/*because children of Father will be (position:absolute)*/
+	transition:all 1s ease-in-out;
+	transform-style:preserve-3d;/*enable feature of 3D for elements that inside Father*/
+}
+
+div.father > div
+{
+	position:absolute;
+	width:100%;  /*width:    same div.father*/
+	height:100%; /* height:  same div.father*/
+	line-height:300px;/*in order to come the text in the middle*/
+	color:#FFF;
+	font-size:30px;
+	text-align:center;
+}
+
+div.front
+{
+	background-color:#F00;
+	/*display:none;*/
+	backface-visibility:hidden;/*visible by default*/
+}
+
+div.back
+{
+	background-color:#00F;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+}
+
+div.father:hover
+{
+	transform:rotateY(180deg);
+}

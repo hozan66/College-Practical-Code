@@ -1,0 +1,125 @@
+/* Global */
+*{
+   margin:0;
+   padding:0;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   box-sizing:border-box;
+}
+
+body{
+     font-family:Arial,Tahoma;
+}
+/* End of Global */
+
+ul{
+	list-style:none;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.main{
+	background-color:#333;
+	color:#DDD;
+	padding:20px;
+	text-align:center;
+}
+
+nav{
+	background-color:#DDD;
+}
+
+nav ul{
+	padding:20px;
+	text-align:center;
+}
+
+nav ul li{
+	display:inline-block;
+}
+
+nav ul li:after{
+	  content:" |";
+}
+
+nav ul li:last-child:after{
+	  content:"";
+}
+
+main{
+	background-color:#EEE;
+	padding:20px;
+}
+
+main p{
+	text-align:center;
+}
+
+main p span{
+	font-weight:bold;
+	color:#666;
+}
+
+main p mark{
+	background-color:#00F;
+	color:#FFF;
+}
+
+.post{
+	width:70%;
+	float:left;
+}
+
+.post article{
+	background-color:#F6F6F6;
+	border:1px solid #CCC;
+	margin:20px;
+}
+
+.post article header{
+	background-color:#E2E2E2;
+	padding:10px;
+}
+
+.post article section{
+	padding:10px;
+}
+
+.post article section details{
+	margin:10px 0;
+}
+
+.post article section .long-link{
+	width:200px;
+}
+
+aside{
+	float:right;
+	width:30%;
+}
+
+aside section{
+	background-color:#EEE;
+	margin:20px 10PX;
+	padding:10px;
+	border:1px solid #CCC;
+}
+
+aside section h3{
+	background-color:#999;
+	padding:10px;
+	margin-bottom: :10px;
+}
+
+aside section ul li{
+	line-height:1.6;
+}
+
+footer{
+	background-color:#333;
+	color:#DDD;
+	text-align:center;
+	padding:10px;
+}

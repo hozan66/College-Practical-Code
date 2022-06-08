@@ -1,0 +1,60 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:100px;
+	height:100px;
+	top:10px;
+	left:10px;
+	background-color:#F00;
+	position:absolute;/*required*/
+	animation-name:moving;/*none by default*/
+	animation-duration:4s;/*4000ms*/
+}
+
+@keyframes moving{
+	0%{
+		top:10px;
+	}
+
+	10%{
+		top:50px;
+	}
+
+	20%{
+		top:30px;
+	}
+
+	30%{
+		top:90px;
+	}
+
+	40%{
+		top:60px;
+	}
+
+	50%{
+		top:110px;
+	}
+
+	60%{
+		top:80px;
+	}
+
+	70%{
+		top:150px;
+	}
+
+	80%{
+		top:120px;
+	}
+
+	90%{
+		top:190px;
+	}
+
+	100%{
+		top:220px;
+	}
+}

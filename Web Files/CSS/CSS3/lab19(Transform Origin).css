@@ -1,0 +1,26 @@
+*
+{
+	box-sizing:border-box;
+}
+
+body
+{
+	perspective:500px;
+}
+
+div
+{
+	width:300px;
+	height:300px;
+	margin:50px auto;
+	background-color:#F00;
+	color:#FFF;
+	text-align:center;
+	transition:all 1s ease-in-out;
+}
+
+div:hover
+{
+	transform:rotate(360deg);
+	transform-origin:bottom right;/*50% 50% by default*/
+}

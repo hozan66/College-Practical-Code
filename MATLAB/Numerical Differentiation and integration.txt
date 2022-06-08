@@ -1,0 +1,200 @@
+clear all
+clc
+%Numerical differentiation
+%forward difference for the first derivative
+
+x=input('x=');
+y=input('y=');
+n=length(x);
+h=x(2)-x(1);
+a=zeros(n);
+a(:,1)=y;
+for j=1:n-1
+    for i=1:n-j
+        a(i,j+1)=a(i+1,j)-a(i,j);
+    end
+end
+disp(a);
+k=1;
+sum=0;
+row=1;
+for i=2:n
+    sum=sum+(k/(i-1))*a(row,i);
+    k=-k;
+end
+disp(sum/h);
+
+------------------------------------------------------------
+clear all
+clc
+%Numerical differentiation
+%forward difference for the second derivative
+
+x=input('x=');
+y=input('y=');
+n=length(x);
+h=x(2)-x(1);
+
+a=zeros(n);
+a(:,1)=y;
+for j=1:n-1
+    for i=1:n-j
+        a(i,j+1)=a(i+1,j)-a(i,j);
+    end
+end
+disp(a);
+
+k=1;
+sum=0;
+row=1;
+for i=3:n
+    if (i==5)
+        a(row,i)=(11/12)*a(row,i); 
+    elseif (i==6)
+        a(row,i)=(5/6)*a(row,i);
+    elseif (i==7)
+        a(row,i)=(137/180)*a(row,i);
+    end
+    sum=sum+k*a(row,i);
+    k=-k;
+end
+disp(sum/h^2);
+-------------------------------------------------------------------
+
+clear all
+clc
+%Numerical differentiation
+%backward difference for the first derivative
+
+x=input('x=');
+y=input('y=');
+n=length(x);
+h=x(2)-x(1);
+a=zeros(n);
+a(:,1)=y;
+for j=1:n-1
+    for i=n:-1:j+1
+        a(i,j+1)=a(i,j)-a(i-1,j);
+    end
+end
+disp(a);
+
+sum=0;
+row=n;
+for i=2:n
+    sum=sum+(1/(i-1))*a(row,i);
+end
+disp(sum/h);
+-------------------------------------------------------------------------
+
+clear all
+clc
+%Numerical differentiation
+%backward difference for the second derivative
+
+x=input('x=');
+y=input('y=');
+n=length(x);
+h=x(2)-x(1);
+
+a=zeros(n);
+a(:,1)=y;
+for j=1:n-1
+    for i=n:-1:j+1
+        a(i,j+1)=a(i,j)-a(i-1,j);
+    end
+end
+disp(a);
+
+sum=0;
+row=n;
+for i=3:n
+    if (i==5)
+        a(row,i)=(11/12)*a(row,i); 
+    elseif (i==6)
+        a(row,i)=(5/6)*a(row,i);
+    elseif (i==7)
+        a(row,i)=(137/180)*a(row,i);
+    end
+    sum=sum+a(row,i);
+end
+disp(sum/h^2);
+--------------------------------------------------------------------------
+
+clear all
+clc
+%numerical integration (Trapezoidal)
+%1: if we have the table
+
+x=input('x=');
+y=input('y=');
+h=x(2)-x(1);
+
+s1=y(1)+y(end);
+s2=2*sum(y(2:end-1));
+
+s3=(h/2)*(s1+s2);
+disp(s3);
+----------------------------------------------------------------------------
+clear all
+clc
+%numerical integration (Trapezoidal)
+%2: if we don't have the table
+f=inline('exp(x)');
+
+a=input('a=');
+b=input('b=');
+n=input('n=');
+h=(b-a)/n;
+
+fa=f(a);
+fb=f(b);
+trap=0;
+for i=1:n-1
+    trap=trap+2*f( a+(h*i) );
+end
+result=(h/2)*(fa+fb+trap);
+disp(result);
+------------------------------------------------------------------------------
+clear all
+clc
+%numerical integration (Simpison)
+%1: if we have the table
+
+x=input('x=');
+y=input('y=');
+h=x(2)-x(1);
+
+s=y(1)+y(end);
+s1=4*sum( y(2:2:end-1) );
+s2=2*sum( y(3:2:end-2) );
+
+sum=(h/3)*(s+s1+s2);
+disp(sum);
+----------------------------------------------------------------------------
+clear all
+clc
+%numerical integration (Simpison)
+%2: if we don't have the table
+f=inline('3*x.^2');
+
+a=input('a=');
+b=input('b=');
+n=input('n=');
+h=(b-a)/n;
+
+fa=f(a);
+fb=f(b);
+s1=0;
+s2=0;
+for i=1:n-1
+    if(rem(i,2)~=0)
+        d=a+(h*i);
+        s1=s1+4*f(d);
+    else
+        d=a+(h*i);
+        s2=s2+2*f(d);
+    end
+end
+sum=(h/3)*(fa+fb+s1+s2);
+disp(sum);

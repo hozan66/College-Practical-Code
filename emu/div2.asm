@@ -1,0 +1,17 @@
+;Y=(255H/5)/2 
+MOV AX,255H
+MOV BL,5H
+MOV CL,2H
+
+DIV BL
+MOV AH,0
+DIV CL
+
+MOV Y[0],AL
+MOV Y[1],AH
+HLT
+
+
+
+
+Y DB ?

@@ -1,0 +1,32 @@
+*
+{
+	box-sizing:border-box;
+}
+
+body
+{
+	perspective:600px;
+}
+
+img
+{
+	width:250px;
+	height:150px;
+	display:block; /*in order to margin property works*/
+	margin:50px auto;
+	transition:all 0.5s ease-in-out;
+}
+
+img:hover
+{
+	/*
+	transform: scaleX();
+	transform: scaleY();
+	transform: scaleZ(); //need perspective to work
+
+	transform: scale3d(x,y,z); //need perspective to work
+	*/
+
+	/*you must use another property to see scaleZ() like rotateY()*/
+	transform: scale3d(2,2,4) rotateY(80deg);
+}

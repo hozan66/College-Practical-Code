@@ -1,0 +1,21 @@
+p:first-letter
+{
+	background:#F00;
+	color:#FFF;
+	font-size:40px;
+	font-weight:bold;
+	margin:0px 10px 0px 0px;
+	padding:0px 10px;
+	border-radius:10px;
+}
+
+p:first-line
+{
+	color:#00F;
+	font-weight:bold;
+}
+
+div span:first-child
+{
+	background:#F00;
+}

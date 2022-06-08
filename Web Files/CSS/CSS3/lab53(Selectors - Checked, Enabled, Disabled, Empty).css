@@ -1,0 +1,20 @@
+*{
+	box-sizing:border-box;
+}
+
+.osama :checked{
+	width:100px;
+}
+
+.hozan input[type="radio"]:checked{
+	width:100px;
+}
+
+:disabled{
+	background-color:#F00;
+}
+
+:enabled{
+	background-color:#080;
+	color:#FFF;
+}

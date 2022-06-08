@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form-Input</title>
+	<link rel="stylesheet" href="lab4(form-input).css">
+</head>
+<body>
+		<div class="post">
+			<article>
+				<header>
+					<h3>Article About Using New Form Input Field</h3>
+					<p>Created By <span>Hozan</span> On <span>12/4/2020</span></p>
+				</header>
+				<section>
+				  <p>New Input Field</p>
+				  <!-- autoplay -->
+				  <form class="html5">
+				  	<label>Color: </label>
+				  	<input type="color" name="theme" value="#0000FF">
+
+				  	<label>Range: </label>
+				  	<input type="range" name="choose" min="0" max="100" value="50" step="25">
+
+				  	<label>Number: </label>
+				  	<input type="number" name="num" min="0" max="30" step="5">
+
+				  	<label>Email: </label>
+				  	<input type="email" name="email">
+
+				  	<label>Search: </label>
+				  	<input type="search" name="search">
+
+				  	<label>Link: </label>
+				  	<input type="url" name="link">
+
+				  	<label>Telephone: </label>
+				  	<input type="tel" name="telephone">
+
+				  	<label>Time: </label>
+				  	<input type="time" name="time">
+
+				  	<label>Date: </label>
+				  	<input type="date" name="date">
+
+				  	<label>Datetime-local: </label>
+				  	<input type="datetime-local" name="datetime">
+
+				  	<label>Month: </label>
+				  	<input type="month" name="month">
+
+				  	<label>Week: </label>
+				  	<input type="week" name="week">
+
+				  	<input type="submit" value="Send">
+				  </form>
+				</section>
+			</article>
+
+			<article>
+				<header>
+					<h3>Article About Using New Form Attributes</h3>
+					<p>Created By <span>Hozan</span> On <span>12/4/2020</span></p>
+				</header>
+				<section>
+				  <p>New Form Attributes</p>
+				  <!-- autoplay -->
+				  <form novalidate>
+				  	<label>Username: </label>
+				  	<input type="text" name="username" autofocus><br>
+
+				  	<label>Email: </label>
+				  	<input type="email" name="email" autocomplete="off"><br>
+
+				  	<input type="submit">
+
+				  </form>
+				</section>
+			</article>
+
+			<article>
+				<header>
+					<h3>Article About Using New Form Attributes 2</h3>
+					<p>Created By <span>Hozan</span> On <span>12/4/2020</span></p>
+				</header>
+				<section>
+				  <p>New Form Attributes 2</p>
+				  <!-- autoplay -->
+				  <form id="main-form" action="process.php" method="get" enctypr="">
+				  	<label>Username: </label>
+				  	<input type="text" name="username" placeholder="Type Your Username"><br>
+
+				  	<label>Email: </label>
+				  	<input type="email" name="email" multiple><br>
+
+				  	<label>Number: </label>
+				  	<input type="number" name="number" min="0" max="100" step="5"><br>
+
+				  	<label>Pattern: </label>
+				  	<input type="text" pattern="[A-Za-z]{6}" required placeholder="Enter Six Letters At Least"><br>
+
+				  	<label>Read Only: </label>
+				  	<input type="text" name="read" value="Hozan-Read" readonly><br>
+
+				  	<label>Disabled: </label>
+				  	<input type="text" name="dis" value="Hozan-Dis" disabled><br>
+
+				  	<input type="file" multiple><br>
+
+				  	<input type="submit" value="Default Submit">
+
+				  	<input type="submit" value="Other Submit" formaction="other.php" formmethod="post">
+
+				  	<input type="submit" value="Submit Without Validation" formnovalidate>
+				  	<input type="submit" value="Submit In New Window" formnovalidate formtarget="_blank">
+
+				  </form>
+
+				  <label>Nickname: </label>
+				  <input type="text" name="nickname" form="main-form" required>
+				</section>
+			</article>
+	</div>
+</body>
+</html>

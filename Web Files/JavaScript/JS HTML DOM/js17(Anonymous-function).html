@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anonymous Function</title>
+</head>
+<body>
+	<!--Using anonymous functions directly inside eventhandlers-->
+	<button onclick="(function(){alert(3+7);})()">Add</button>
+
+	<script>
+		//expression function
+		var x=function()
+			{
+				var z=2+3;
+				return z;
+			}
+			alert(x()); //5
+			alert(typeof x); //function
+
+			//defining variable as function
+			function sum()
+			{
+				return 2+2;
+			}
+			var anothersum=sum;
+			alert(anothersum()); //4
+	</script>
+</body>
+</html>

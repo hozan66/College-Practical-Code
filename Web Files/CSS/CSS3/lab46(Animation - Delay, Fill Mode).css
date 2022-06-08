@@ -1,0 +1,75 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	width:100px;
+	height:100px;
+	top:10px;
+	left:10px;
+	background-color:#F00;
+	color:#FFF;
+	position:absolute;/*required*/
+	animation-name:moving;/*none by default*/
+	animation-duration:4s;/*4000ms*/
+
+	animation-iteration-count:1;/*1 by  default*/
+	animation-direction:alternate;/*normal by defauly*/
+
+	animation-delay:0s;/*0s by default*/
+	animation-fill-mode:both;/*none by default*/
+}
+
+.second{
+	background-color:#00F;
+	animation-delay:3s;
+}
+
+@keyframes moving{
+	0%{
+		top:30px;
+		background-color:#FF0;
+	}
+
+	10%{
+		top:100px;
+	}
+
+	20%{
+		top:80px;
+	}
+
+	30%{
+		top:140px;
+	}
+
+	40%{
+		top:120px;
+	}
+
+	50%{
+		top:160px;
+	}
+
+	60%{
+		top:210px;
+	}
+
+	70%{
+		top:260px;
+	}
+
+	80%{
+		top:310px;
+	}
+
+	90%{
+		top:360px;
+	}
+
+	100%{
+		top:270px;
+		background-color:#333;
+		border-radius:50%;
+	}
+}

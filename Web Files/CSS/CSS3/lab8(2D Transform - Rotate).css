@@ -1,0 +1,15 @@
+div
+{
+	background-color:#EEE;
+	padding:10px;
+	border:1px solid #CCC;
+	font-family:Arial;
+	width:300px;
+	margin:100px auto;
+	text-align:center;
+}
+
+div:hover
+{
+	transform:rotate(45deg);/*none by default*/
+}

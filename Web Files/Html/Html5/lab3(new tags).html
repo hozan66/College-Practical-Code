@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Tags</title>
+	<link rel="stylesheet" href="lab3(new tags).css">
+</head>
+<body>
+	<div class="post">
+		 <article>
+				<header>
+					<h3>Article About Using Code Inside &lt;figure&gt;</h3>
+					<p>Created By <span>Hozan</span> On <time datetime="2014-10-25 16:20:33">Oct, 25th, 2014</time></p>
+				</header>
+				<section>
+					<h3>
+						Top Members
+					</h3>
+					<ul>
+						<li>Osama: 90 Points</li>
+						<li>Ahmed: 120 Points</li>
+						<li><bdi>علي</bdi>: 80 Points</li>
+					</ul>
+
+				  <p>This Code Describe The Div Syntax</p>
+				  <dialog open>This is Dialog From HTML5</dialog>
+				  <figure>
+					 <figcaption>This Is Div Syntax 1-3</figcaption>
+						  <code>
+						  	&lt;div&gt;This Is Normal Syntax For Div &lt;/div&gt;
+						  </code>
+				  </figure>
+				</section>
+
+				<section class="poll">
+					<h3>What's Your Best Browser?</h3>
+					<form>
+						<input list="browsers">
+						<datalist id="browsers">
+						<option value="Chrome">
+						<option value="Firefox">
+						<option value="Safari">
+						<option value="Opera">
+						<option value="Internet Explorer">
+						</datalist>
+						<input type="submit" value="Choose">
+					</form>
+				</section>
+
+				<section class="calculate-age">
+					<h3>Calculate Your Age In Days</h3>
+					 <form oninput="result.value=parseInt(age.value)*parseInt(days.value)+': Your Age In Days'">
+					 	<input type="text" name="age">
+					 	<input type="hidden" name="days" value="365">
+					 	<output name="result"></output>
+					 </form>
+				</section>
+			</article>
+
+	        <article>
+				<header>
+					<h3>Article About Using Code Inside &lt;figure&gt;</h3>
+					<p>Created By <span>Hozan</span> On <span>12/4/2020</span></p>
+				</header>
+				<section>
+				  <p>This Code Describe The Div Syntax</p>
+				  <figure>
+					 <figcaption>This Is Div Syntax 1-3</figcaption>
+						  <code>
+						  	&lt;div&gt;This Is Normal Syntax For Div &lt;/div&gt;
+						  </code>
+				  </figure>
+				</section>
+			</article>
+
+			   <article>
+				<header>
+					<h3>Article About Using Image Inside &lt;figure&gt;</h3>
+					<p>Created By <span>Hozan</span> On <span>12/4/2020</span></p>
+				</header>
+				<section>
+				  <p>This Code Describe Image Inside Figure</p>
+				  <figure class="img-figure">
+						<img src="D:/photoes/Action/pexels-photo-2071873.jpeg" alt="Cat" title="My Cat">
+						<img src="D:/photoes/Action/pexels-photo-2071873.jpeg" alt="Cat" title="My Cat">
+						<img src="D:/photoes/Action/pexels-photo-2071873.jpeg" alt="Cat" title="My Cat">
+						 <figcaption>Three Images Contain See the Full List <a href="#">Here</a></figcaption>
+				  </figure>
+				</section>
+			</article>	
+
+			<article>
+				<header>
+					<h3>Article About Using &lt;Video&gt;</h3>
+					<p>Created By <span>Hozan</span> On <span>12/4/2020</span></p>
+				</header>
+				<section>
+				  <p>This is HTML5 video</p>
+				  <!-- autoplay -->
+				  <video width="320" height="300" controls muted loop poster="D:/photoes/Action/pexels-photo-2071873.jpeg" preload="none">
+				  	<source src="C:\كلية\Computer Skills\MS-Excel\@1-MS Excel - Introduction_HD.mp4" type="video/mp4">
+				  		<!--
+				  	<source src="C:\كلية\Computer Skills\MS-Excel\@1-MS Excel - Introduction_HD.ogg" type="video/ogg">	
+				  		<source src="C:\كلية\Computer Skills\MS-Excel\@1-MS Excel - Introduction_HD.webm" type="video/webm">
+				  		-->
+				  			<track kind="subtitles" src="hozan.vtt" srclang="en" label="English">
+				  	Your Browser Does Not Support Video Technology
+				  </video>
+				</section>
+			</article>
+	</div>
+		<aside>
+				<section>
+					<h3>Today's Audio</h3>
+					<audio controls autoplay  loop muted preload="auto">
+						<source src="D:/025.MP3" type="audio/mpeg">
+							Your Browser Does Not Support Audio Technology
+					</audio>
+				</section>
+		</aside>
+			<div class="clearfix"></div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+*
+{
+	box-sizing:border-box;
+}
+
+body
+{
+	perspective:500px;
+}
+
+div.father
+{
+	width:300px;
+	height:300px;
+	margin:50px auto;
+	background-color:#080;
+	color:#FFF;
+	text-align:center;
+	position:relative;/*because children of Father will be position:absolute*/
+	transition:all 1s ease-in-out;
+	transform:rotateY(20deg);
+	transform-style:preserve-3d;/*flat by default*/
+}
+
+div.child1
+{
+	width:300px;
+	height:300px;
+	background-color:#F00;
+	position:absolute;
+	left:30px;
+	top:30px;
+	transform:translateZ(50px) rotateY(45deg);
+}
+
+div.child2
+{
+	width:300px;
+	height:300px;
+	background-color:#00F;
+	position:absolute;
+	left:30px;
+	top:30px;
+	transform:translateZ(150px) rotateX(45deg);
+}

@@ -1,0 +1,23 @@
+div
+{
+	width:200px;
+	height:200px;
+	background:#DDD;
+	margin:20px auto;
+}
+
+.div1
+{
+	border-radius:100px;
+	/*
+	border-top-left-radius:100px;
+	border-top-right-radius:100px;
+	border-bottom-left-radius:100px;
+	border-bottom-right-radius:100px;
+	*/
+}
+
+.div2
+{
+	border-radius:10px 20px 30px 40px;
+}

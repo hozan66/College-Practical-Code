@@ -1,0 +1,12 @@
+;Y=A/B,A=-16,B=3
+MOV AL,A
+MOV BL,B
+IDIV BL
+MOV Y,AX
+
+
+
+
+A DB -16D
+B DB 3D
+Y DW ?

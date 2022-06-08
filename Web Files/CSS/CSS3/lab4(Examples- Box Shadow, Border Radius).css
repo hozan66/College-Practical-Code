@@ -1,0 +1,17 @@
+img
+{
+	width:183px;
+	height:183px;
+	border-radius:50%;
+	margin:50px;
+	padding:3px;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	
+}
+
+img:hover
+{
+	box-shadow:7px 7px 20px #E4E4E4,
+	           -7px -7px 20px #E4E4E4;
+}

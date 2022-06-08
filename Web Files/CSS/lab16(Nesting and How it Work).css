@@ -1,0 +1,23 @@
+.container, .another
+{
+	width:600px;
+	background:#DDD;
+	padding:10px;
+	margin:10px;
+}
+
+.container p
+{
+   color:#F00;
+}
+
+.another p
+{
+   color:#00F;
+}
+
+.container p, .another p
+{
+	font-size:bold;
+	font-size:20px;
+}

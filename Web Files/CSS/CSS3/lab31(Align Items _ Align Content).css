@@ -1,0 +1,36 @@
+*{
+	box-sizing:border-box;
+}
+
+.container{
+	width:200px;
+	height:500px;
+	margin:50px auto;
+	background-color:#CCC;
+	display:flex;
+	/*align-items:baseline;*//*stretch by default*/
+
+	flex-wrap:wrap;
+	align-content:space-between;/*stretch by defaul*/
+}
+
+.container div{
+	width:180px;
+	color:#FFF;
+	padding:10px;
+	max-height:100px;
+}
+
+.container div:first-of-type{
+	background-color:#080;
+}
+
+.container div:nth-of-type(2){
+	background-color:#F00;
+}
+
+.container div:last-of-type{
+	background-color:#00F;
+}
+
+

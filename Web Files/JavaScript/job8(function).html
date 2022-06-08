@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function</title>
+</head>
+<body>
+	<input type="text" id="dollar">
+	
+	<button onclick="convert()">Calculate</button>
+	<div id="message"></div>
+
+<script>
+	function convert()
+	{
+		"use strict";  
+		var amount=document.getElementById("dollar").value;
+		var result=amount*3.75;
+		var message=document.getElementById("message");
+		if(amount==="")
+			message.innerHTML="This field can not be empty";
+			else if(isNaN(amount))
+				message.innerHTML="This field accept number only";
+			else if(amount==="0")
+				message.innerHTML="The value must not be 0";
+			else if(amount<0)
+				message.innerHTML="The value must not be Negative";
+				else
+					message.innerHTML=amount+" Dollar is worth "+result+" Riyal";
+		
+	};
+	
+</script>
+</body>
+</html>

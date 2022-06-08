@@ -1,0 +1,32 @@
+*
+{
+	box-sizing:border-box;
+}
+
+.container
+{
+   width:400px;
+   background-color:#EEE;
+   margin:100px auto;
+   padding:10px;
+   border:1px solid #CCC;
+   height:200px;
+}
+
+.scale
+{
+	background-color:#080;
+	color:#FFF;
+	text-align:center;
+	height:180px;
+}
+
+.scale:hover
+{
+	/*
+	transform:scale(2);
+	transform:scaleX(2);
+	transform:scaleY(2);
+	*/
+	transform:scale(2,2);
+}

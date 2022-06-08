@@ -1,0 +1,48 @@
+;Use procedure to find factorial of 4 numbers in array??
+
+lea si,fac1
+lea di,fac2
+mov cx,4
+
+back: mov al,1 
+      mov ah,0 
+      mov bl,1
+      call pp
+      
+      add di,2
+      inc si
+      loop back   
+      hlt
+      
+      pp proc
+lab:  cmp bl,[si] 
+      ja stop   
+      mul bl
+      inc bl
+      jmp lab
+         
+stop: mov [di],ax
+      ret
+      endp
+
+fac1 db 2,3,4,5
+fac2 dw ? 
+---------------------------------------------------------------
+
+;Write a program to read a string of characters from array
+;and print on the screen using interrupt instruction?? 
+
+lea si,msg
+mov ah,02h
+
+back: mov dl,b.[si]
+      cmp dl,0
+      jz stop 
+      inc si
+      int 21h 
+      jmp back
+      
+      stop: hlt
+
+msg db 'Welcome!',0
+

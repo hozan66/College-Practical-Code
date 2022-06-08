@@ -1,0 +1,29 @@
+/*box-shadow:none by default*/
+div
+{
+	width:200px;
+	height:200px;
+	background:#EEE;
+	padding:10px;
+	margin:20px auto;
+	border:2px solid #CCC;
+}
+/*
+   box-shadow:Horizontal shadow | Vertical shadow | blur | spread | color | outset,inset;
+*/
+.div1
+{
+   box-shadow:10px 10px 5px 5px #DDD;
+}
+
+.div2
+{
+   box-shadow:10px 10px 5px 5px #DDD inset;
+}
+
+.div3    /*multiple shadow*/
+{
+   box-shadow:-5px -5px 8px 5px #F00,
+               5px 5px 8px 5px #00F,
+               10px 10px 8px 8px #080;
+}

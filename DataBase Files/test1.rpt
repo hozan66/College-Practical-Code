@@ -1,0 +1,14 @@
+﻿
+(1 row(s) affected)
+
+(1 row(s) affected)
+
+(1 row(s) affected)
+ID          FirstName            LastName             StateCode alive height
+----------- -------------------- -------------------- --------- ----- -----------
+1           paul                 Revere               Al        0     74
+2           Hoz                  ag                   sy        1     79
+3           Shi                  fa                   ql        1     77
+
+(3 row(s) affected)
+

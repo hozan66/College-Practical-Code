@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<style> 
+</style>
+</head>
+<body>
+<p id="demo"></p>
+<input type="checkbox" name="chb" id="chb"> visible 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
+<button id="demo" onclick="check()">checkBox Check</button><br>
+<input type="text" name="txt" id="txt" disabled> 
+&nbsp&nbsp&nbsp&nbsp 
+<button id="demo" onclick="checkMsg()">Greeting Check</button>
+<script>
+function check()
+{
+var node=document.getElementById('chb');
+if (node.checked){alert('checked');}
+else {alert('not checked');}
+}
+//function to check the content of a text box
+function checkMsg(){
+var n=document.getElementById("txt").value;
+switch(n)
+{
+case "good morning":alert("new day greeting"); break;
+case "goodbye":alert("End day greeting"); break;
+default:alert("greeting not recognized"); break;
+}
+					}
+
+function checkMsg()
+{
+var node=document.getElementById('txt').value;
+switch (node) {    
+case "good" + " morning":alert("New Day Greeting was Found.");        
+break;    
+case "goodbye":alert("End Day Greeting was found.");        
+break;    
+default:alert("Unexpected message was found."); 
+}
+
+}
+
+//prompt with switch Example
+
+var y=Number(prompt('Please Enter a Number'));
+
+switch (true) 
+{    
+case y<0: 
+alert("Less than 0.");        
+break;    
+case y>=0&&y<=10:
+ alert("Between 0 and 10.");        
+ break;    
+case y>10&&y<=20:
+alert("Between 10 and 20.");        
+break;    
+default: alert("More than 20"); 
+}
+/*
+//simple array example
+
+var arr=['car','bike','airplane'];
+document.write("<br>",arr);
+//document.write('<br>','arr=[',arr,']','<br>');
+document.write('<br>','arr[0]=',arr[0],'<br>');
+*/
+//for in with arrays
+/*
+for(var i in arr) 
+alert(i);
+//{document.write('<br>','arr[',i,']=',arr[i],'<br>');}
+*/
+//for of arr
+/*
+for(let i of arr)alert(i);
+//{document.write('<br>','arr[',i,']=',arr[i],'<br>');}
+*/
+//ordinary for with arr.length
+/*
+for(var i=0; i<arr.length;i++)
+{document.write('<br>','arr[',i,']=',arr[i],'<br>');}
+*/
+//return all window properties
+/*
+for (var propName in window) 
+{     document.write(propName,'<br>'); }
+*/
+//function with return
+/*var x=function(){z=2+3; return z;}
+alert(x());
+alert(typeof x);
+var y =  x;
+alert(y());
+function sum(){return 2+3;}
+var anothersum= sum;
+alert(anothersum());
+*/
+
+//continue exmple
+/*
+var num = 0;  
+   for (var i=1; i  <  10; i++) {    if (i % 5 == 0) 
+			     {  continue;    }    
+	num++;		 }
+alert(num);    //8
+*/
+//break exmple
+/*
+var num = 0;
+label1: for (var i=0; i  <  10; i++) 
+	{     
+	     for (var j=0; j  <  10; j++) 
+		{        if (i == 5  &&  j == 5) {   break label1; }        
+		     num++;    
+		} 
+	}                   
+alert(num);    //55
+*/
+//for in loop with objects
+/*
+var txt = "";
+var person = {fname:"John", lname:"Doe", age:25}; 
+var x;
+for (x in person) {
+  txt += person[x] + " "; //returns index
+}
+document.getElementById("demo").innerHTML = txt;
+*/
+
+
+
+</script>
+
+</body>
+</html>

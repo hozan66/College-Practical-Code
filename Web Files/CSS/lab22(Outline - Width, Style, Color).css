@@ -1,0 +1,9 @@
+div
+{
+	width:300px;
+	padding:10px;
+	background:#00F;
+	color:#FFF;
+	border:5px solid #F00;
+	outline: 5px solid #080;
+}

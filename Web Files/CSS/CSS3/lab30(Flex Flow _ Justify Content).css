@@ -1,0 +1,34 @@
+*{
+	box-sizing:border-box;
+}
+
+.container{
+	width:800px;
+	margin:50px auto;
+	background-color:#CCC;
+	display:flex;
+	/* flex-flow:flex-direction flex-wrap; */
+	flex-flow:row nowrap; /*row nowrap by default*/
+	justify-content:space-around; /*flex-start by default*/
+}
+
+.container div{
+	width:200px;
+	height:200px;
+	color:#FFF;
+	padding:10px;
+}
+
+.container div:first-of-type{
+	background-color:#080;
+}
+
+.container div:nth-of-type(2){
+	background-color:#F00;
+}
+
+.container div:last-of-type{
+	background-color:#00F;
+}
+
+

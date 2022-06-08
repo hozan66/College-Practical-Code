@@ -1,0 +1,19 @@
+.left
+{
+	width:300px;
+	background:#00F;
+	color:#FFF;
+	padding:10px;
+	float:left; /*none by default*/
+	margin:10px;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.right
+{
+	float:right;
+}

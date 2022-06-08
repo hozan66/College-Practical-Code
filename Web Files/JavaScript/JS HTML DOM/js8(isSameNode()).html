@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>isSameNode()</title>
+</head>
+<body>
+
+	<p id="kk">
+		Good Morning <b id="bb">Everyone</b>
+	</p>
+
+	<script>
+		var node1=document.getElementById('kk');
+		var node2=document.getElementById('kk');
+		var node=node1.isSameNode(node2);
+		alert(node); //true
+	</script>
+</body>
+</html>

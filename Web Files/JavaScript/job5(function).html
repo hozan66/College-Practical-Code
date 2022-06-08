@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function</title>
+</head>
+<body>
+	<div id="test"></div>
+
+<script>
+	function calc()
+	{
+		"use strict";
+		var myName="hozan",
+		myAge=20;
+
+		 return myAge*365;
+	};
+	var days=calc();
+	var node=document.getElementById("test");
+	node.innerHTML="Your Age= "+days+" in Days";
+
+
+</script>
+</body>
+</html>

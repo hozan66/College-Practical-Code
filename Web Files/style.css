@@ -1,0 +1,33 @@
+div {
+    
+    height: 300px;
+    width: 200px;
+    background-color: antiquewhite;
+    display: inline-block;
+    border: 1px red solid;
+}
+
+.one:hover {
+    transform: rotate(45deg);
+    transition: all 2s ease-in;
+}
+
+.two:hover {
+    transform: skew(30deg, -10deg);
+    transition: all 2s ease-out;
+}
+
+.three:hover {
+    width: 400px;
+    transform: scale(1.2, 0.6);
+    transition: all 2s ease-in-out;
+}
+
+.four:hover {
+    transform: translateX(400px);
+    transition: transform 2s ease-in;
+}
+
+.five:hover {
+    transform: 
+}

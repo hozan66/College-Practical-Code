@@ -1,0 +1,23 @@
+*{
+	box-sizing:border-box;
+}
+
+/* nth: number th [1st, 2nd, 3rd, 4th, 5th.....]
+   nth(number, formula, keyword)
+*/
+div, p{
+	padding:10px;
+	width:200px;
+	border:1px solid #CCC;
+	margin:0px;
+}
+
+div:nth-child(3n+1){/*where n=0,1,2,3......*/
+	background-color:#EEE;
+}
+
+div:nth-child(n+4):nth-child(-n+8){/*it is the Range*/
+	background-color:#123456;
+}
+
+

@@ -1,0 +1,24 @@
+*{
+	box-sizing:border-box;
+}
+
+div{
+	border:1px solid #F0F;
+	background-color:#CCC;
+	padding:10px;
+	column-count:4;/*auto by default*/
+	column-gap:100px;/*normal by default*/
+
+	/*column-rule: width | style | color;*/ 
+	/*column-rule: medium none color; by default*/
+
+	/*
+	column-rule-width:5px;
+	column-rule-style:dotted;
+	column-rule-color:#080;
+	*/
+	column-rule:5px dotted #080;
+
+	column-width:200px;/*auto by default*/
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Function</title>
+</head>
+<body>
+	<div id="test">12</div>
+
+<script>
+	function calc(Age)
+	{
+		"use strict";
+            var year=365;
+
+		 return year*Age;
+	};
+	var days=prompt("How old are you ?");   //it's like input  //always return string
+	
+	var node=document.getElementById("test");
+	node.innerHTML=calc(days);
+	alert("Hello  Beautiful!");
+
+
+</script>
+</body>
+</html>

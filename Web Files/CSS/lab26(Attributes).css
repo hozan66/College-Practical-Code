@@ -1,0 +1,41 @@
+a[target="_blank"]
+{
+	color:#0F0;
+}
+
+a[title="testing"]
+{
+	color:#F00;
+}
+
+img[title="Image 2"]
+{
+	border-radius:10px;
+}
+
+img[alt="this is test 3"]
+{
+	border:2px solid #000;
+}
+
+input
+{
+	display:block;
+	margin:10px 0px;
+	padding:10px;
+}
+
+input[name="xx"]
+{
+	color:#F00;
+}
+
+input[type="password"]
+{
+	color:pink;
+}
+
+input[type="search"]
+{
+	color:#080;
+}
